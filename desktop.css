@@ -12,6 +12,8 @@ body {
     background-repeat: no-repeat; /* რომ არ გაამრავლოს სურათი */
     background-attachment: fixed; /* რომ ფონი სქროლს არ აჰყვეს */
     min-height: 100vh;
+    width: 1440px;
+
 
 }
 .Card{
