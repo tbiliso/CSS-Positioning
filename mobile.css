@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Kumbh Sans, sans-serif;
+}
+
+body {
+    background-image:
+        linear-gradient(rgba(9, 137, 180, 0), rgba(83, 255, 238, 1)),
+        url("./assets/image/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat; /* რომ არ გაამრავლოს სურათი */
+    background-attachment: fixed; /* რომ ფონი სქროლს არ აჰყვეს */
+    min-height: 100vh;
+    width: 480px;
+
+
+}
+.Card{
+    border-radius: 15px;
+    transform: translate(50%,50%);
+}
+header {
+    background-image: url(./assets/image/CardOval.png);
+    width: 350px;
+    height: 144px;
+    border-radius: 15px 15px 0 0;
+}
+
+main {
+    width: 350px;
+    height: 204px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    padding-top: 70px;
+    border-radius: 0 0 15px 15px;
+
+    img {
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -50%);
+
+        /* z-index: 3; */
+
+        h1 {
+            /* padding-top: 60px; */
+            font-size: 18px;
+            font-weight: bold;
+            color: #2e3349;
+            display: inline-block;
+
+
+        }
+
+    }
+}
+
+.age {
+    color: grey;
+    font-weight: 400;
+}
+
+.age p {
+    font-size: 14px;
+}
+
+.line {
+    width: 350px;
+    height: 1px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+article {
+
+    div {
+        display: inline-block;
+        align-content: space-around;
+        margin-right: 40px;
+        margin-top: 30px;
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 10px;
+            font-weight: 400;
+            color: gray;
+        }
+    }
+
+    ;
+
+}
